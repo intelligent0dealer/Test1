@@ -1,12 +1,12 @@
 public abstract class Railway implements Riding {
     @Override
-    public void Ride() {
+    public void ride() {
 
     }
     public class Cart extends Railway {
         @Override
-        public void Ride() {
-            super.Ride();
+        public void ride() {
+            super.ride();
         }
     }
 

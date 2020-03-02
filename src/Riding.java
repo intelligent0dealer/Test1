@@ -1,5 +1,5 @@
 public interface Riding {
-    public default void Ride() {
+    public default void ride() {
         System.out.println("Go!");
 
     }

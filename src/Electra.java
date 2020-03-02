@@ -1,6 +1,6 @@
 public class Electra extends Bicycle {
     @Override
-    public void Ride() {
-        super.Ride();
+    public void ride() {
+        super.ride();
     }
 }

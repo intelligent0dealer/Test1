@@ -1,6 +1,6 @@
 public class Volkswagen extends Car {
     @Override
-    public void Ride() {
-        super.Ride();
+    public void ride() {
+        super.ride();
     }
 }

@@ -1,6 +1,7 @@
 public abstract class Car implements Riding {
-    @Override
-    public void Ride() {
-        System.out.println("Work");
-    }
+   int wheels=4;
+   String equipment="Basic";
+   String equipment1="Medium";
+   String equipment2="Maximum";
+
 }

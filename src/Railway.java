@@ -1,13 +1,22 @@
-public abstract class Railway implements Riding {
-    @Override
-    public void ride() {
+public abstract class Railway  {
+    int passengers=10;
+String driver="Yes, it's need";
+String nodriver="No";
+abstract public void speed();
+        public static class Cart {
+            public void station(){
+            }
 
-    }
-    public class Cart extends Railway {
-        @Override
-        public void ride() {
-            super.ride();
+            public void stop(){
+            }
+
+            public void speed(){
+                System.out.println("60");
+            }
+
+            }
+
         }
-    }
 
-}
+
+
